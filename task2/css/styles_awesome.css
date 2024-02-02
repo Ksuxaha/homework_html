@@ -1,0 +1,76 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@100;400&display=swap');*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.block-top{
+    text-align: center;
+}
+.block-top__title{
+    color: #000;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+    margin-left: 170px;
+    margin-right: 170px ;
+
+}
+
+.block-top__line{
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 0 auto 40px;
+
+}
+.block-top__text{
+    color: #86878B;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 92px;
+
+}
+.block-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px ;
+
+}
+.card{
+text-align: center;
+}
+
+.card__subtitle{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 24px 0 28px;
+}
+.card__text{
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
