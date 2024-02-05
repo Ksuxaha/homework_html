@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.Pricing{
+    background: rgb(245, 245, 245);
+
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+.wrapper-pricing-top{
+    padding-top: 82px;
+}
+
+.wrapper-pricing-bottom{
+   padding-bottom: 83px;
+
+}
+
+.wrapper-pricing-top__title{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+
+
+}
+.wrapper-pricing-top__line{
+    width: 170px;
+    height: 0;
+    border: 1px solid rgb(236, 121, 121);
+    margin: 0 auto 40px;
+
+}
+.wrapper-pricing-top__text{
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+.wrapper-pricing-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+
+
+}
+
+.basic__name, .optima__name, .pro__name {
+    Width: 370px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.basic__price, .optima__price, .pro__price {
+    width: 370px;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.basic__free, .optima__free, .pro__free {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(51, 51, 51);
+    width: 370px;
+    font-family: Raleway;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    padding: 17px 0;
+
+}
+
+li{
+    width: 370px;
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    border: 2px solid rgb(245, 245, 245);
+    background: rgb(255, 255, 255);
+    padding: 14px 0;
+
+}
+.optima{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.2);
+}
+
+
