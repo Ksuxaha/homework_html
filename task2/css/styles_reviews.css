@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.wraper-reviews-top{
+    padding-top: 107px;
+
+}
+
+.wrapper-reviews-top_title {
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 39.5px ;
+}
+
+.wrapper-reviews-top_line{
+    /*position: absolute;*/
+    width: 170px;
+    height: 0;
+    border: 1px solid rgb(236, 121, 121);
+    margin: 0 auto 40px;
+}
+
+.wrapper-reviews-top_text{
+    width: 1169px;
+    height: 21px;
+    align-items: center;
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    /*padding-top: 40.5px;*/
+}
+
+.wrapper-reviews-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 83px;
+    padding-bottom: 107px;
+}
+
+.wrapper-reviews-bottom__el1__text, .wrapper-reviews-bottom__el2__text, .wrapper-reviews-bottom__el3__text {
+    border-radius: 10px;
+    background: rgb(226, 226, 226);
+    width: 370px;
+    padding: 38px 25px ;
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 66px;
+    position: relative;
+
+}
+.wrapper-reviews-bottom__el1__text:after, .wrapper-reviews-bottom__el2__text:after, .wrapper-reviews-bottom__el3__text:after{
+    content: "";
+    position: absolute;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid rgb(226, 226, 226);
+    bottom: -20px;
+    left: 70px ;
+
+}
+
+
+.wrapper-reviews-bottom__el1__data1, .wrapper-reviews-bottom__el2__data2, .wrapper-reviews-bottom__el3__data3{
+    display: flex;
+    justify-content:space-between ;
+    gap: 30px;
+
+}
+
+
+.wrapper-reviews-bottom__el1__data1__name, .wrapper-reviews-bottom__el2__data2__name,.wrapper-reviews-bottom__el3__data3__name {
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 269px;
+}
+
+.wrapper-reviews-bottom__el1__data1__prof, .wrapper-reviews-bottom__el2__data2__prof, .wrapper-reviews-bottom__el3__data3__prof{
+    padding-top: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
