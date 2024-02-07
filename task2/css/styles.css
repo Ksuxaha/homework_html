@@ -22,9 +22,9 @@
 }
 .tabs{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: -1px;
+    width: 100%;
 
 }
 
@@ -50,11 +50,6 @@
 
 }
 
-.tabs__empty{
-    height: 40px;
-    width: 600px;
-
-}
 .main{
     display: flex;
     border: 1px solid #C6CBCD;
@@ -111,6 +106,13 @@
     text-align: center;
     margin-bottom: 54px;
     cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+
+
 }
 
 
