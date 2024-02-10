@@ -1,0 +1,32 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.footer{
+    background: rgb(0, 0, 0);
+    padding: 35px 0 27px 0;
+
+
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 32.8px;
+    align-items: center;
+
+}
+
+.footer-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 27.8px;
+
+}
