@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+.main{
+    background: url("../img/main image.png") rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    padding-top: 306px;
+    padding-bottom: 185px;
+}
+
+.wrapper-main{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.main-left__title{
+    width: 670px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    margin-top: 72.8px;
+    margin-bottom: 54.62px;
+}
+
+.main-left__line{
+    border: 1px solid rgb(255, 255, 255);
+    width: 170px;
+    height: 1px;
+}
+
+.main-left__text{
+    width: 270px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 42.5px;
+    padding-bottom: 42px;
+
+}
+
+
+.main-left__button__download{
+    width: 270px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+.main-left__button__download:hover{
+    border: 2px solid rgb(236, 121, 121);
+    color: rgb(236, 121, 121);
+
+}
+
+.main-right{
+    width: 470px;
+    height: 450px;
+    background: white;
+
+
+}
+
+
+

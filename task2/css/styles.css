@@ -50,19 +50,19 @@
 
 }
 
-.main{
+.tabs-main{
     display: flex;
     border: 1px solid #C6CBCD;
 
 }
 
-.main_left{
+.tabs-main_left{
     margin-right: 30px;
     margin-top: 55px;
     margin-left: 100px;
 
 }
-.main_left__title{
+.tabs-main_left__title{
     color: #000;
     width: 570px;
     font-family: "Open Sans";
@@ -74,7 +74,7 @@
 
 }
 
-.main_left__1paragraph{
+.tabs-main_left__1paragraph{
     color: #000;
     width: 570px;
     font-family: Raleway;
@@ -86,7 +86,7 @@
 
 }
 
-.main_left__2paragraph{
+.tabs-main_left__2paragraph{
     color: #000;
     width: 570px;
     font-family: Raleway;
@@ -98,7 +98,7 @@
 
 }
 
-.main_left__btn {
+.tabs-main_left__btn {
     width: 270px;
     padding: 22px 27px;
     border: 1px solid #EC7979;
@@ -116,7 +116,7 @@
 }
 
 
-.main_left__download{
+.tabs-main_left__download{
     text-decoration: none;
     color: white;
 
