@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.contact_us .container{
+    padding: 67px 0;
+}
+
+.contact_us_top__title{
+    color: rgb(0, 0, 0);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 39.5px;
+    padding-bottom: 40.5px;
+}
+
+.contact_us_top__line{
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    margin: 0 auto 40px;
+}
+
+.contact_us_top__text{
+    color: rgb(134, 135, 139);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+
+.contact_form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 89px;
+
+
+}
+.fcontact_us__formleft input {
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    width: 571px;
+    padding-bottom: 16px;
+    margin-bottom: 50px;
+
+}
+.fcontact_us__formleft input::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.fcontact_us__formright textarea{
+    width: 569px;
+    overflow: hidden;
+    padding-bottom: 165px;
+    border: none;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    resize:none;
+}
+.fcontact_us__formright textarea::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.contact_us__button{
+    width: 370px;
+    height: 58px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    background: rgb(236, 121, 121);
+    border: 1px solid rgb(236, 121, 121);
+    align-items: center;
+    margin-left: 401px;
+}
+
