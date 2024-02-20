@@ -15,8 +15,22 @@
     background-size: cover;
     padding-top: 306px;
     padding-bottom: 185px;
-}
+    /*position: relative;*/
 
+
+}
+/*.main:after{*/
+/*    content: url("../img/main image.png");*/
+/*    position: absolute;*/
+/*    background-blend-mode: multiply;*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+
+/*}*/
 .wrapper-main{
     display: flex;
     justify-content: space-between;
@@ -65,10 +79,13 @@
     line-height: 25px;
     display: flex;
     justify-content: center;
+
 }
 .main-left__button__download:hover{
     border: 2px solid rgb(236, 121, 121);
     color: rgb(236, 121, 121);
+    transition: 0.3s;
+
 
 }
 
@@ -135,7 +152,7 @@
 }
 
 .main-right__form input::placeholder{
-    color: rgb(189, 189, 189)
+    color: rgb(189, 189, 189)v
 }
 
 

@@ -40,8 +40,15 @@
 
 }
 
-.wrapper-media__icons{
+.wrapper-media__icons {
     display: flex;
     column-gap: 30px;
     justify-content: space-between;
+
+}
+.wrapper-media__icons a:hover{
+    background: #35085e;
+    transition: 0.3s;
+    border: 1px solid #35085EFF;
+    border-radius: 30%;
 }

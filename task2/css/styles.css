@@ -114,6 +114,12 @@
 
 
 }
+.tabs-main_left__btn:hover{
+    border: 2px solid #AB4949;
+    background: #AB4949;
+    color: white;
+    transition: 0.3s;
+}
 
 
 .tabs-main_left__download{

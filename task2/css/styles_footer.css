@@ -19,6 +19,12 @@
     align-items: center;
 
 }
+.footer-icons a:hover{
+    background: #b29603;
+    transition: 0.3s;
+    border: 1px solid #35085EFF;
+    border-radius: 30%;
+}
 
 .footer-text{
     color: rgba(255, 255, 255, 0.5);
