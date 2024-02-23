@@ -1,31 +1,59 @@
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .container {
         max-width: 1022px;
+
     }
 
-    .Social-Media{
+    .wrapper-pricing-top{
+        padding-top: 50px;
+    }
+
+    .wrapper-pricing-bottom{
+        padding-bottom: 50px;
+
+    }
+
+    .wrapper-pricing-top__title{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 50px;
+    }
+
+    .wrapper-pricing-top__line{
+        width: 143px;
+        margin: 0 auto 33px;
+
+    }
+
+    .wrapper-pricing-top__text{
+        font-size: 14px;
+        line-height: 16px;
         margin-bottom: 50px;
     }
 
-    .wrapper-media__title{
-        font-size: 18px;
-        line-height: 25px;
-        padding: 17px 0;
-    }
+    .wrapper-pricing-bottom{
+        gap: 20px;
 
-    .wrapper-media__text{
-        font-size: 14px;
-        line-height: 16px;
-        width: 402px;
-        padding: 13px 0;
-
-    }
-    .wrapper-media__icons {
-        column-gap: 20px;
 
     }
 
+    .basic__name, .optima__name, .pro__name {
+        padding: 18px 0;
+
+    }
+
+    .basic__price, .optima__price, .pro__price {
+        font-size: 36px;
+        padding: 28px 0;
+    }
 
 
+    .basic .optima . pro{
+        width: 316px;
+    }
+    .wrapper-pricing-bottom li{
+        width: 316px;
+    }
 
 }
+

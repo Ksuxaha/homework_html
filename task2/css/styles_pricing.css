@@ -54,10 +54,16 @@
     display: flex;
     justify-content: space-between;
     gap: 31px;
-    width: 100%;
+
+
 
 
 }
+
+.basic .optima . pro{
+    width: 370px;
+}
+
 
 .basic__name, .optima__name, .pro__name {
     border: 1px solid rgb(245, 245, 245);
@@ -76,7 +82,7 @@
     background: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 33px;
     text-align: center;
@@ -95,7 +101,7 @@
 
 }
 
-li{
+.wrapper-pricing-bottom li{
     width: 370px;
     color: rgb(134, 135, 139);
     font-family: Raleway;
