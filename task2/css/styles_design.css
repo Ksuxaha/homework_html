@@ -14,7 +14,6 @@ container {
     background-position: center;
     background-size: cover;
     padding: 70px 0;
-
 }
 
 .design__block-top{
@@ -28,9 +27,8 @@ container {
     font-weight: 400;
     line-height: 42px;
     padding-bottom: 40px;
-
-
 }
+
  .design__block-top__line{
      border: 1px solid rgb(255, 255, 255);
      width: 170px;
@@ -54,16 +52,50 @@ container {
     border: 2px solid rgb(255, 255, 255);
     padding: 20px 140px;
     margin: 0 auto;
-
-
 }
 
 .design__button__download{
     font-family: Open Sans;
      font-size: 18px;
+    line-height: 25px;
      font-weight: 600;
      color: rgb(255, 255, 255);
     text-align: center;
     align-items: center;
 
  }
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1022px;
+    }
+
+    .Design{
+        padding: 50px 0;
+    }
+
+    .design__block-top__title{
+        font-size: 24px;
+        line-height: 28px;
+        padding: 50px 0;
+
+    }
+    .design__block-top__line{
+        width: 142px;
+        height: 1px;
+        margin: 0 auto 32.5px ;
+    }
+    .design__block-top__text{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 32px;
+    }
+    .design__button{
+        width: 318px;
+        /*height: 58px;*/
+        padding: 20px 116px;
+    }
+
+}
+

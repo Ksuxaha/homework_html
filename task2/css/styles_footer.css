@@ -8,8 +8,6 @@
 .footer{
     background: rgb(0, 0, 0);
     padding: 35px 0 27px 0;
-
-
 }
 
 .footer-icons{
@@ -17,8 +15,8 @@
     justify-content: center;
     column-gap: 32.8px;
     align-items: center;
-
 }
+
 .footer-icons a:hover{
     background: #b29603;
     transition: 0.3s;
@@ -34,5 +32,32 @@
     line-height: 21px;
     text-align: center;
     padding-top: 27.8px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1022px;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .footer-icons{
+        column-gap: 28px;
+    }
+
+    .footer-icons img{
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .footer-text{
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 38px;
+    }
 
 }
+

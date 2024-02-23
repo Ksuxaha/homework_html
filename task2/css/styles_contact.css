@@ -46,13 +46,10 @@
     margin-bottom: 50px;
     gap: 30px;
 
-
-
 }
+
 .fcontact_us__form-elem{
     width: calc(50% - 30px / 2);
-
-
 }
 
 .fcontact_us__formleft{
@@ -65,7 +62,7 @@
 .fcontact_us__formleft input {
     border: none;
     border-bottom: 1px solid rgb(189, 189, 189);
-    padding-bottom: 16px;
+    padding-bottom: 15.5px;
 }
 .fcontact_us__formleft input::placeholder{
     color: rgb(189, 189, 189);
@@ -106,5 +103,45 @@
     background: #AB4949;
     color: white;
     transition: 0.3s;
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1022px;
+    }
+    .contact_us .container{
+        padding: 50px 0;
+    }
+
+    .contact_us_top__title{
+        font-size: 24px;
+        line-height: 28px;
+        padding:50px 0;
+    }
+    .contact_us_top__line{
+        width: 144px;
+        margin: 0 auto 32.5px;
+    }
+
+    .contact_us_top__text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact_form {
+        margin-top: 72px;
+        gap: 20px;
+
+    }
+
+    .fcontact_us__form-elem{
+        width: calc(50% - 20px / 2);
+    }
+    .contact_us__button{
+        width: 318px;
+        margin-left: 337px;
+    }
+
 }
 
