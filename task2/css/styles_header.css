@@ -48,3 +48,17 @@
     color: white;
     text-transform: uppercase;
 }
+
+@media (max-width: 1200px){
+    .container {
+        max-width: 1022px;
+    }
+
+    .header__logo{
+        margin-left: 115px;
+    }
+    .header__menu__link{
+
+    }
+}
+

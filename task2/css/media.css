@@ -1,0 +1,31 @@
+@media (max-width: 1200px){
+    .container {
+        max-width: 1022px;
+    }
+
+    .Social-Media{
+        margin-bottom: 50px;
+    }
+
+    .wrapper-media__title{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 17px 0;
+    }
+
+    .wrapper-media__text{
+        font-size: 14px;
+        line-height: 16px;
+        width: 402px;
+        padding: 13px 0;
+
+    }
+    .wrapper-media__icons {
+        column-gap: 20px;
+
+    }
+
+
+
+
+}
