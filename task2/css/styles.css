@@ -134,68 +134,105 @@
     }
 
 @media (max-width: 1200px) {
-    .container {
-        max-width: 1022px;
+    .tabspict{
+        margin-bottom: 50px;
+
+    }
+
+    .tabs__1{
+        width: 172px;
+
+    }
+
+    .tabs__2{
+        width: 156px;
+
+    }
+
+    .tabs__3{
+        width: 156px;
+
+    }
+
+    .tabs-main_left{
+        margin: 0 26px 38px 84px ;
+
+
+    }
+    .tabs-main_left__title{
+        width: 483px;
+        font-size: 24px;
+        line-height: 33px;
+        padding-bottom: 30px;
+        padding-top: 36px;
+
+    }
+
+    .tabs-main_left__1paragraph {
+        width: 483px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 22px;
+        margin-top: 38px;
+
+    }
+
+    .tabs-main_left__2paragraph{
+        width: 483px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 38px;
+
+    }
+
+    .tabs-main_left__btn {
+        width: 232px;
+        padding: 22px 20px;
+        margin-bottom: 50px;
+
     }
 }
 
-.tabspict{
-    margin-bottom: 50px;
 
+@media (max-width: 1000px){
+
+    .tabs-main_left{
+        margin: 0 25px 38px 25px;
+    }
+    .tabs-main_left__btn {
+        width: 197px;
+        padding: 10px 0;
+
+    }
 }
 
-.tabs__1{
-    width: 172px;
+@media (max-width: 870px){
+
+    .tabs-main_left{
+        margin: 0 0 38px 15px;
+    }
+    .tabs-main_left__title{
+        width: 370px;
+        font-size: 20px;
+    }
+    .tabs-main_left__1paragraph {
+        width: 370px;
+        font-size: 14px;
+
+    }
+
+    .tabs-main_left__2paragraph{
+        width: 370px;
+        font-size: 14px;
+
+
+    }
+
+    .tabs-main_left__btn {
+        width: 197px;
+        padding: 10px 0;
+
+    }
 
 }
-
-.tabs__2{
-    width: 156px;
-
-}
-
-.tabs__3{
-    width: 156px;
-
-}
-
-.tabs-main_left{
-    margin: 0 26px 38px 84px ;
-
-
-}
-.tabs-main_left__title{
-    width: 483px;
-    font-size: 24px;
-    line-height: 33px;
-    padding-bottom: 30px;
-    padding-top: 36px;
-
-}
-
-.tabs-main_left__1paragraph {
-    width: 483px;
-    font-size: 14px;
-    line-height: 16px;
-    padding-bottom: 22px;
-    margin-top: 38px;
-
-}
-
-.tabs-main_left__2paragraph{
-    width: 483px;
-    font-size: 14px;
-    line-height: 16px;
-    padding-bottom: 38px;
-
-}
-
-.tabs-main_left__btn {
-    width: 232px;
-    padding: 22px 20px;
-    margin-bottom: 50px;
-
-}
-
-
 

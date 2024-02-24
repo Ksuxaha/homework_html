@@ -61,7 +61,8 @@
 }
 
 .basic .optima . pro{
-    width: 370px;
+    width: calc(33.3% - 31px / 3);
+    /*width: 370px;*/
 }
 
 
@@ -121,11 +122,6 @@
 }
 
 @media (max-width: 1200px) {
-    .container {
-        max-width: 1022px;
-
-    }
-
     .wrapper-pricing-top{
         padding-top: 50px;
     }
@@ -156,7 +152,6 @@
     .wrapper-pricing-bottom{
         gap: 20px;
 
-
     }
 
     .basic__name, .optima__name, .pro__name {
@@ -178,6 +173,28 @@
     }
 
 }
+
+
+@media (max-width: 1000px) {
+    .wrapper-pricing-bottom{
+        gap: 20px;
+        justify-content: center;
+
+    }
+    .basic .optima . pro{
+        width: calc(33.3% - 20px / 3);
+    }
+    .wrapper-pricing-bottom li{
+        width: 270px;
+    }
+}
+
+@media (max-width: 870px){
+    .wrapper-pricing-bottom li{
+        width: 245px;
+    }
+}
+
 
 
 
