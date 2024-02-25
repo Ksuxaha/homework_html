@@ -60,7 +60,6 @@
     margin-right: 30px;
     margin-top: 55px;
     margin-left: 100px;
-
 }
 .tabs-main_left__title{
     color: #000;
@@ -69,9 +68,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 57px;
-
 }
 
 .tabs-main_left__1paragraph{
@@ -136,29 +133,26 @@
 @media (max-width: 1200px) {
     .tabspict{
         margin-bottom: 50px;
-
     }
 
     .tabs__1{
         width: 172px;
-
     }
 
     .tabs__2{
         width: 156px;
-
     }
 
     .tabs__3{
         width: 156px;
-
     }
+
 
     .tabs-main_left{
         margin: 0 26px 38px 84px ;
-
-
     }
+
+
     .tabs-main_left__title{
         width: 483px;
         font-size: 24px;
@@ -189,7 +183,6 @@
         width: 232px;
         padding: 22px 20px;
         margin-bottom: 50px;
-
     }
 }
 
@@ -236,3 +229,85 @@
 
 }
 
+@media (max-width: 768px) {
+    .tabspict{
+        margin-bottom: 0;
+
+    }
+    .tabs__1{
+        width: 102px;
+
+    }
+
+    .tabs__2{
+        width: 102px;
+
+    }
+
+    .tabs__3{
+        width: 102px;
+
+    }
+    .main_right__img{
+        display: none;
+    }
+    .tabs-main_left{
+        width: 100%;
+        margin: 0 20px 0 25px;
+    }
+    .tabs-main_left__title{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 30px 32px;
+        text-align: center;
+
+
+    }
+    .tabs-main_left__1paragraph{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 29px 0;
+        text-align: center;
+        margin-top: 0;
+    }
+    .tabs-main_left__2paragraph{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        padding-bottom:29px ;
+    }
+    .tabs-main_left__btn {
+        width: 242px;
+        padding: 17px 50px;
+        margin: 0 auto 30px;
+    }
+
+}
+
+@media(max-width:414px ) {
+    .tabs-main_left__title{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 30px 32px;
+        text-align: center;
+    }
+    .tabs-main_left__1paragraph{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 29px 0;
+        text-align: center;
+        margin-top: 0;
+    }
+    .tabs-main_left__2paragraph{
+        width: 100%;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        padding-bottom:29px ;
+    }
+}

@@ -64,6 +64,37 @@ container {
     align-items: center;
 
  }
+@media (max-width: 768px) {
+    .Social-Media{
+        margin-bottom: 58px;
+        padding: 0 16px;
+    }
+    .design__block-top__title{
+        width: 100%;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 50px 0;
+    }
+    .design__block-top__line{
+        width: 134px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    .design__block-top__text{
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+        padding: 16px 0;
+    }
+    .design__button{
+        width: 100%;
+        padding: 15px 97px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
 
 
 @media (max-width: 1200px) {

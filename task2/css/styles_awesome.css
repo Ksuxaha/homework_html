@@ -10,7 +10,6 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
 
 .block-top{
@@ -80,55 +79,86 @@ text-align: center;
 
 }
 @media (max-width: 1200px) {
-    .container {
-        max-width: 1022px;
+    .block-top__title{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 51px;
     }
+
+
+    .block-top__title:after{
+        width: 142px;
+        left: calc(50% - 71px);
+
+    }
+
+    .block-top__text{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 66px;
+        padding-top: 32px;
+    }
+
+    .block-bottom{
+        gap: 20px ;
+        margin-bottom: 68px;
+    }
+    .card__img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 34px;
+    }
+
+    .card__subtitle{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 34px  ;
+        margin: 0;
+    }
+
+    .card__text{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 9px;
+    }
+
 }
+@media (max-width: 768px) {
+    .Awesome{
+        padding: 0 16px;
 
-.block-top__title{
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 51px;
+    }
+    .block-top__title{
+        font-size: 18px;
+        line-height: 21px;
+        margin: 0;
+        padding: 53px 44px;
+    }
+    .block-top__title:after{
+        width: 134px;
+        left: calc(50% - 67px);
+    }
 
-}
-
-
-.block-top__title:after{
-    width: 142px;
-    left: calc(50% - 71px);
-
-}
-
-.block-top__text{
-    font-size: 14px;
-    line-height: 16px;
-    margin-bottom: 66px;
-    padding-top: 32px;
-
-}
-
-.block-bottom{
-    gap: 20px ;
-    margin-bottom: 68px;
-
-}
-.card__img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 34px;
-}
-
-.card__subtitle{
-    font-size: 18px;
-    line-height: 25px;
-    padding: 34px  ;
-    margin: 0;
-}
-
-.card__text{
-    font-size: 14px;
-    line-height: 16px;
-    margin-top: 9px;
+    .block-top__text{
+        width: 288px;
+        font-size: 13px;
+        line-height: 15px;
+        margin:0 auto 50px;
+        padding-top: 25px;
+    }
+    .block-bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px ;
+        margin-bottom: 17px;
+    }
+    .card__subtitle{
+        margin:33px auto;
+        padding: 0;
+    }
+    .card__text{
+        margin: 9px 0 43px;
+    }
 
 }
 

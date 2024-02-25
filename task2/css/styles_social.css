@@ -68,8 +68,8 @@
         line-height: 16px;
         width: 402px;
         padding: 13px 0;
-
     }
+
     .wrapper-media__icons {
         column-gap: 20px;
 
@@ -105,6 +105,35 @@
     .wrapper-media__icons img{
         width: 33px;
         height: 33px;
+        margin-bottom: 46px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .Social-Media{
+        margin-bottom: 31px;
+    }
+    .Social-Media .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-media__title{
+        padding: 17px 38px;
+        text-align: center;
+    }
+
+    .wrapper-media__text{
+        width: 100%;
+        padding-top: 13px;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+
+    .wrapper-media__icons img{
+        width: 25px;
+        height: 25px;
     }
 
 }
